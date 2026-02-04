@@ -1,0 +1,307 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <div class="template">
+        <header>
+            <!-- CONTEÚDO DO CABEÇALHO -->
+            <section class="content guide">
+                <!-- CONTEÚDO SUPERIOR DO CABEÇALHO -->
+                <div class="content guide tophead">
+                    <h1><i class="fas fa-store"></i> Mercado TADS</h1>
+                    <!-- BARRA DE PESQUISA -->
+                    <form action="#">
+                        <input type="text" name="pesquisa" placeholder="Buscar produtos, marcas e mais..." >
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                    <!-- AÇÕES DO USUÁRIO -->
+                    <nav>
+                        <ul>
+                            <li> <i class="fas fa-user"></i><p>Conta</p> </li>
+                            <li> <i class="fas fa-gift"></i>Ofertas </li>
+                            <li> <i class="fas fa-shopping-cart"></i><p>Carrinho</p> </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- CONTEÚDO INFERIOR DO CABEÇALHO (MENU) -->
+                <nav class="content guide bottomhead">
+                    <ul>
+                        <li>
+                            <a href="#">Categorias</a>
+                        </li>
+                        <li>
+                            <a href="#">Ofertas do Dia</a>
+                        </li>
+                        <li>
+                            <a href="#">Histórico</a>
+                        </li>
+                        <li>
+                            <a href="#">Supermercado</a>
+                        </li>
+                        <li>
+                            <a href="#">Moda</a>
+                        </li>
+                        <li>
+                            <a href="#">Vender</a>
+                        </li>
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+                        <li>
+                            <a href="#">Ajuda</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <!-- BANNER -->
+        <section class="bannertemplate">
+            <!-- CONTEÚDO DO BANNER -->
+            <div class="content banner">
+                <h2>As melhores ofertas estão aqui</h2>
+                <p>Comprar milhares de produtos a partir de R$ 9,99</p>
+            </div>
+        </section>
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main>
+            <!-- MENU DE CATEGORIAS DOS ITENS -->
+            <nav class="content menucategorias">
+                <!-- CADA <li> É UMA CATEGORIA -->
+                <ul>
+                    <li>
+                        <button>
+                            <i class="fas fa-mobile-alt"></i><p>Celulares</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-laptop"></i><p>Eletrônicos</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-tshirt"></i><p>Moda</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-home"></i><p>Casa</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-gamepad"></i><p>Games</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-utensils"></i><p>Supermercado</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-child"></i><p>Brinquedos</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fas fa-book"></i><p>Livros</p>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <!-- SEÇÃO DE DESTAQUES -->
+            <section class="content emphasis">
+                <!-- CADA DESTAQUE É UM ARTICLE -->
+                <article class="content emphasis items toy">
+                    <h2>Brinquedos</h2>
+                    <img src="/images/brinquedos.jpg" alt="Imagem de um urso de pelúcia de olhos e nariz pretos utilizando um vestido rosa.">
+                    <aside>
+                        <img src="/images/brinquedo_1.jpg" alt="Imagem de uma bola rosa com olhos e óculos.">
+                        <img src="/images/brinquedo_2.jpg" alt="Imagem de pinos de boliches coloridos.">
+                        <img src="/images/brinquedo_3.jpg" alt="Imagem de um spinner branco.">
+                    </aside>
+                </article>
+
+                <article class="content emphasis items house">
+                    <h2>Casa</h2>
+                    <img src="/images/casa.jpg" alt="Imagem de um balcão de cozinha com diversos utensílios.">
+                    <aside>
+                        <img src="/images/casa_1.jpg" alt="Imagem com algumas vasilhas brancas.">
+                        <img src="/images/casa_2.jpg" alt="Imagem de uma máquina de café.">
+                        <img src="/images/casa_3.jpg" alt="Imagem de uma torradeira em uso.">
+                    </aside>
+                </article>
+
+                <article class="content emphasis items desktop">
+                    <h2>Notebooks</h2>
+                    <img src="/images/notebooks.jpg" alt="Imagem de um notebook sobre uma escrivaninha com decoração rosa.">
+                    <aside>
+                        <img src="/images/notebook_1.jpg" alt="Imagem de um notebook sobre uma estante com duas decorações de cerâmica ao seu lado.">
+                        <img src="/images/notebook_2.jpg" alt="Imagem de um notebook utilizando o prompt de comando com um óculos e uma caneca ao seu lado.">
+                        <img src="/images/notebook_3.jpg" alt="Imagem de um notebook branco ligado.">
+                    </aside>
+                </article>
+            </section>
+            <!-- SEÇÃO DE OFERTAS DO DIA -->
+            <section class="content offers">
+                <h2>Ofertas do dia</h2>
+                <!-- CONJUNTO DE PRODUTOS -->
+                <section class="content offers products">
+                    <!-- CADA ARTICLE É UM PRODUTO -->
+                    <article class="content offers product n1">
+                        <img src="/images/produto_1.webp" alt="Imagem de uma cadeira gamer verde com rodinhas.">
+                        <h3>R$&nbsp;1.299,00</h3>
+                        <p>10% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n2">
+                        <img src="/images/produto_2.webp" alt="Imagem de Fritadeira Elétrica Elgin Petit Fry.">
+                        <h3>R$&nbsp;199,00</h3>
+                        <p>15% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n3">
+                        <img src="/images/produto_3.webp" alt="Imagem de Smarthphone Samsung Galaxy S25.">
+                        <h3>R$&nbsp;3.499,00</h3>
+                        <p>12% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n4">
+                        <img src="/images/produto_4.webp" alt="Imagem do Modelador 3D Creality">
+                        <h3>R$&nbsp;2.199,00</h3>
+                        <p>8% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n5">
+                        <img src="/images/produto_5.webp" alt="Imagem do Notebook Lenovo">
+                        <h3>R$&nbsp;2.899,00</h3>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n6">
+                        <img src="/images/produto_6.webp" alt="Imagem de Smarthphone Moto 675 5G">
+                        <h3>R$&nbsp;1.599,00</h3>
+                        <p>20% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n7">
+                        <img src="/images/produto_7.webp" alt="Imagem de câmera de segurança infravermelha.">
+                        <h3>R$&nbsp;299,00</h3>
+                        <p>3% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+
+                    <article class="content offers product n8">
+                        <img src="/images/produto_8.webp" alt="Imagem de cadeira móvel preta.">
+                        <h3>R$&nbsp;399,00</h3>
+                        <p>18% OFF</p>
+                        <p>Comprar</p>
+                    </article>
+                </section>
+            </section>
+                <!-- SEÇÃO DE INFORMAÇÕES DE PAGAMENTO -->
+            <footer class="content desc">
+                <div class="content desc child 1">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <h2>Escolha como pagar</h2>
+                    <p>Aceitamos todos os cartões, boleto ou Pix. Algumas compras podem ser pagas em até 12x sem juros.</p>
+                </div>
+
+                <div class="content desc child 2">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <h2>Frete grátis</h2>
+                    <p>Seja um afiliado e tenha fretes grátis em todos os produtos</p>
+                </div>
+
+                <div class="content desc child 3">
+                    <i class="fa-solid fa-shield"></i>
+                    <h2>Site seguro</h2>
+                    <p>Seguimos as melhores práticas de segurança para garantir sua tranquilidade ao comprar</p>
+                </div>
+            </footer>
+        </main>
+        <!-- INÍCIO DO RODAPÉ -->
+        <footer>
+            <!-- CONTAINER DE INFORMAÇÕES (LINKS) -->
+            <section class="content infos">
+                <!-- CADA DIV É UM CONJUNTO DE INFORMAÇÕES (TÍTULO H2 + PARÁGRAFO DENTRO DE LINK) -->
+                <div class="content infos child 1">
+                    <h2>Informações</h2>
+                    <a href="#">
+                        <p>Sobre nós</p>
+                    </a>
+                    <a href="#">
+                        <p>Termos e condições</p>
+                    </a>
+                    <a href="#">
+                        <p>Política de privacidade</p>
+                    </a>
+                </div>
+
+                <div class="content infos child 2">
+                    <h2>Ajuda</h2>
+                    <a href="#">
+                        <p>Perguntas frequentes</p>
+                    </a>
+                    <a href="#">
+                        <p>Meus pedidos</p>
+                    </a>
+                    <a href="#">
+                        <p>Atendimento</p>
+                    </a>
+                </div>
+
+                <div class="content infos child 3">
+                    <h2>Para vendedores</h2>
+                    <a href="#">
+                        <p>Vender no mercado TADS</p>
+                    </a>
+                    <a href="#">
+                        <p>Soluções para seus negócio</p>
+                    </a>
+                </div>
+
+                <div class="content infos child 4">
+                    <h2>Baixe nosso app</h2>
+                    <a href="#">
+                        <p>App Store</p>
+                    </a>
+                    <a href="#">
+                        <p>Google Play</p>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- CONTAINER DE REDES SOCIAIS E COPYRIGHT -->
+            <div class="content socialmedia">
+                <!-- LINHA DIVISÓRIA DO RODAPÉ (HR) -->
+                <hr>
+                <!-- CONJUNTO DE ICONES DO CONTAINER -->
+                <div class="content socialmedia icons">
+                    <i class="fab fa-facebook" aria-label="Icone do Facebook"></i>
+                    <i class="fa-brands fa-bluesky" aria-label="Icone do Bluesky"></i>
+                    <i class="fab fa-instagram" aria-label="Icone do Instagram"></i>
+                    <i class="fab fa-youtube" aria-label="Icone do Youtube"></i>
+                </div>
+                <p>&copy; 2025 Mercado TADS - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
